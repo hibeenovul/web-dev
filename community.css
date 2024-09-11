@@ -141,18 +141,16 @@ body
 {
     content: '→';
     position: absolute;
-    bottom: 0px;
-    right: 0px;
-    transform: translate(-120px, 14px);
+    bottom: -14px;
+    right: 120px;
     transition: right 0.4s ease;
 }
 .community::before
 {
     content: '←';
     position: absolute;
-    bottom: 0px;
-    left: 0px;
-    transform: translate(-0px, 14px);
+    bottom: -14px;
+    left: -5px;
     transition: left 0.4s ease;
 }  
 .community span
@@ -366,18 +364,16 @@ a
 {
     content: '→';
     position: absolute;
-    bottom: 0px;
-    right: 0px;
-    transform: translate(-640px, 14px);
+    bottom: -14px;
+    right: 645px;
     transition: right 0.4s ease;
 }
 .community-events::before
 {
     content: '←';
     position: absolute;
-    bottom: 0px;
-    left: 0px;
-    transform: translate(640px, 14px);
+    bottom: -14px;
+    left: 645px;
     transition: left 0,4s ease;
 }
 .community-events span
@@ -673,16 +669,16 @@ a
     {
         content: '→';
         position: absolute;
-        bottom: -5px;
-        right: -100px;
+        bottom: -19px;
+        right: 20px;
         transition: right 0.3s;
     }
     .community::before
     {
         content: '←';
         position: absolute;
-        bottom: -5px;
-        left: 0px;
+        bottom: -19px;
+        left: -5px;
         transition: left 0.3s;
     }  
     .community span
@@ -904,7 +900,7 @@ a
     .third-container
     {
         display: grid;
-        height: 780px;
+        height: 800px;
         margin-top: 80px;
         place-items: center;
     }
@@ -917,17 +913,17 @@ a
     {
         content: '→';
         position: absolute;
-        bottom: -1px;
-        right: -640px;
-        transition: right 0.3s ease;
+        bottom: -15px;
+        right: 0px;
+        transition: right 0.4s ease;
     }
     .community-events::before
     {
         content: '←';
         position: absolute;
-        bottom: -1px;
-        left: -640px;
-        transition: left 0.3s ease;
+        bottom: -15px;
+        left: 0px;
+        transition: left 0.4s ease;
     }
     .community-events span
     {
@@ -1058,7 +1054,7 @@ a
         width: 106px;
         height: 28px;
         margin-top: 20px;
-        margin-left: 20px;
+        margin-left: 10px;
         font-size: 12px;
         font-weight: 600;
         line-height: 14.4px;
@@ -1074,14 +1070,14 @@ a
         line-height: 17px;
         color: #3c3c3c;
         font-size: "Open Sans", sans-serif;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .calendar
     {
         display: flex;
         width: auto;
         height: 20px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .rectangle
     {
@@ -1104,12 +1100,13 @@ a
         font-family: "Open Sans", sans-serif;
         color: #6f6f6f;
         margin-top: -2px;
-    }.location
+    }
+    .location
     {
         display: flex;
         width: auto;
         height: 40px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .text2
     {
