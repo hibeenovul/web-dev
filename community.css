@@ -134,30 +134,17 @@ body
     font-family: "Poppins", sans-serif;
     line-height: 33.6px;
     color: #141E61;
-    display: inline-block;
-    position: relative;
+    display: grid
+} 
+.line
+{
+    width: 268px;
+    color: #141E61;
+    margin-top: -16px;
 }
-.community::after
+.line img
 {
-    content: '→';
-    position: absolute;
-    bottom: -14px;
-    right: 120px;
-    transition: right 0.4s ease;
-}
-.community::before
-{
-    content: '←';
-    position: absolute;
-    bottom: -14px;
-    left: -5px;
-    transition: left 0.4s ease;
-}  
-.community span
-{
-    border-bottom: 2px solid #141E61;
-    padding: auto;
-    margin: auto;
+    width: 150px;
 }
 .at
 {
@@ -330,25 +317,37 @@ body
 }
 button
 {
-    width: 165px;
+    width: 191px;
     height: 51px;
     border-radius: 30px;
-    padding: 12px 48px 12px 48px;
     background-color: #141E61;
     margin-top: 50px;
+    color: #141E61;
+    margin-left: 1330px;
+    display: flex;
+
+}
+button span
+{   
+    width: 69px;
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     line-height: 27px;
     font-family: "Poppins", sans-serif;
-    margin-left: 1350px;
-
+    margin: 10px;
+    margin-top: 8px;
+    margin-left: 40px;
 }
-button span::after
+.button-arrow
 {
-    content: '→';
-    position: absolute;
-    margin-left: 10px;
+
+    margin: 10px;
+}
+.button-arrow img
+{
+    margin-left: -20px;
+    margin-top: 3px;
 }
 a
 {
@@ -359,26 +358,6 @@ a
     display: grid;
     height: 750px;
     margin-top: 150px;
-}
-.community-events::after
-{
-    content: '→';
-    position: absolute;
-    bottom: -14px;
-    right: 645px;
-    transition: right 0.4s ease;
-}
-.community-events::before
-{
-    content: '←';
-    position: absolute;
-    bottom: -14px;
-    left: 645px;
-    transition: left 0,4s ease;
-}
-.community-events span
-{
-    border-bottom: 2px solid #141E61;
 }
 .community-event-frame
 {
@@ -394,15 +373,28 @@ a
     font-weight: 550;
     font-size: 28px;
     line-height: 33.6px;
-    text-align: center;
-    display: inline-block;
-    position: relative;
+    place-items: center;
+    display: grid;
+}
+.community-event-line
+{
+    width: 268px;
+    color: #141E61;
+    margin-top: -17px;
+}
+.community-event-line img
+{
+    width: 268px;
+    border: 2px;
+    height: 12px;
 }
 .a
 {
     height: 54px;
+    width: 1027px;
     margin-left: 200px;
     text-align: center;
+    place-items: center;
     width: 1027px;
     font-size: 16px;
     font-weight: 400;
@@ -664,27 +656,18 @@ a
         font-family: "Poppins", sans-serif;
         line-height: 36px;
         color: #141E61;
+        display: grid;
+        margin-left: 100px;
     }
-    .community::after
+    .line
     {
-        content: '→';
-        position: absolute;
-        bottom: -19px;
-        right: 20px;
-        transition: right 0.3s;
+        width: 147px;
+        margin-top: -23px;
+        margin-left: -5px;
     }
-    .community::before
+    .line img
     {
-        content: '←';
-        position: absolute;
-        bottom: -19px;
-        left: -5px;
-        transition: left 0.3s;
-    }  
-    .community span
-    {
-        border-bottom: 2px solid #141E61;
-
+        width: 135px;
     }
     .at
     {
@@ -871,27 +854,33 @@ a
         width: 128px;
         height: 41px;
         border-radius: 30px;
-        padding: 10px 24px 10px 24px;
         background-color: #141E61;
+        color: #141E61;
         margin-top: 20px;
+        margin-left: 210px;
+        display: flex;
+
+    }
+    button span
+    {
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
         font-family: "Poppins", sans-serif;
-        margin-left: 210px;
+        margin-top: 6px;
+        margin: 6px;
+        margin-left: 15px;
+    }
+    .button-arrow
+    {
 
+        margin: 6px;
     }
-    button span::after
+    .button-arrow img
     {
-        content: '→';
-        position: absolute;
-        margin-left: 10px;
-    }
-    button span
-    {
-        width: 54px;
-        height: 21;
-        color: #ffffff;
+        margin-left: -15px;
+        margin-top: 3px;
+        height: 15px;
     }
     a
     {
@@ -909,39 +898,13 @@ a
         display: grid;
         height: 580px;
     }
-    .community-events::after
-    {
-        content: '→';
-        position: absolute;
-        bottom: -15px;
-        right: 0px;
-        transition: right 0.4s ease;
-    }
-    .community-events::before
-    {
-        content: '←';
-        position: absolute;
-        bottom: -15px;
-        left: 0px;
-        transition: left 0.4s ease;
-    }
-    .community-events span
-    {
-        border-bottom: 2px solid #141E61;
-    }
     .community-event-frame
     {
         height: 152px;
         width: 330px;
         display: grid;
     }
-    .community-events
-    {
-        height: 33px;
-        width: 235px;
-        margin-left: 30px;
-    }
-    .community-events span
+    .community-events 
     {
         width: 234px;
         height: 30px;
@@ -950,6 +913,19 @@ a
         font-weight: 600;
         font-size: 24px;
         line-height: 36px;
+        margin-left: 30px;
+        display: grid;
+        margin-top: -25px;
+    }
+    .community-event-line
+    {
+        width: 234px;
+        margin-top: -22px;
+    }
+    .community-event-line img
+    {
+        width: 234px;
+        height: 12px;
     }
     .a
     {
@@ -1126,10 +1102,11 @@ a
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 768px)
 
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 1024px)
 
+{}
 
 /* Large devices (laptops and desktops, 1024px and up) */
 @media only screen and (min-width: 1024px) and (max-width: 1200px)
+
