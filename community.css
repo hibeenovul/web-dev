@@ -138,13 +138,13 @@ body
 } 
 .line
 {
-    width: 268px;
+    width: 271px;
     color: #141E61;
     margin-top: -16px;
 }
 .line img
 {
-    width: 150px;
+    width: 165px;
 }
 .at
 {
@@ -650,7 +650,7 @@ a
     }
     .community
     {
-        width: 148px;
+        width: 150px;
         height: 30px;
         font-size: 24px;
         font-family: "Poppins", sans-serif;
@@ -661,13 +661,13 @@ a
     }
     .line
     {
-        width: 147px;
-        margin-top: -23px;
-        margin-left: -10px;
+        width: 150px;
+        margin-top: -20px;
     }
     .line img
     {
-        width: 147px;
+        width: 150px;
+        height: 10px;
     }
     .at
     {
@@ -920,12 +920,12 @@ a
     .community-event-line
     {
         width: 234px;
-        margin-top: -22px;
+        margin-top: -20px;
     }
     .community-event-line img
     {
         width: 234px;
-        height: 12px;
+        height: 10px;
     }
     .a
     {
@@ -1224,7 +1224,7 @@ a
     }
     .community
     {
-        width: 148px;
+        width: 150px;
         height: 30px;
         font-size: 24px;
         font-family: "Poppins", sans-serif;
@@ -1235,13 +1235,13 @@ a
     }
     .line
     {
-        width: 147px;
-        margin-top: -23px;
-        margin-left: -10px;
+        width: 150px;
+        margin-top: -20px;
     }
     .line img
     {
-        width: 147px;
+        width: 150px;
+        height: 10px;
     }
     .at
     {
@@ -1494,12 +1494,12 @@ a
     .community-event-line
     {
         width: 234px;
-        margin-top: -22px;
+        margin-top: -20px;
     }
     .community-event-line img
     {
         width: 234px;
-        height: 12px;
+        height: 10px;
     }
     .a
     {
