@@ -322,9 +322,8 @@ button
     color: #141E61;
     margin-left: 1330px;
     display: flex;
-
-
 }
+
 button span
 {   
     width: 69px;
@@ -2571,5 +2570,299 @@ a
         margin-top: -2px
     }
     
+}
+@media only screen and (min-width: 1201px) and (max-width: 1440px)
+/* Large devices (laptops and desktops, 1440px) */
+
+{
+    body
+    {
+        margin-left: 50px;
+        margin-right: 0px;
+        background-color: #ffffff;
+        display: grid;
+        place-items: center;
+        overflow-x: hidden;
+    }
+    .body-eclipse2
+    {
+        width: 577px;
+        height: 528px;
+        position: absolute;
+        border-radius: 360px;
+        top: 1980px;
+        right: -240px;
+        background-color: #EEEEEE;
+        z-index: -1;
+    }
+
+    .second-container, .third-container
+    {
+        place-items: center;
+    }
+    .community-picture-background,
+    .community-picture-background2,
+    .community-events
+    {
+        place-items: center;
+    }
+    .text-area
+    {
+        width: 179px;
+        height: 291px;
+        margin-top: 295px;
+        display: grid;
+    }
+    .community-picture-frame1b, .community-picture-frame1c,
+    .community-picture-frame1d
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 60px;
+        border-radius: 20px;
+    }
+    .community-picture-frame2b, .community-picture-frame2c,
+    .community-picture-frame2d
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 60px;
+        border-radius: 20px;
+    }
+    .community-event-picture
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border-radius: 20px;
+        place-items: center;
+    }
+    .community-event-pictureb,
+    .community-event-picturec, .community-event-pictured
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 60px;
+        border-radius: 20px;
+        place-items: center;
+    }
+    button
+    {
+        width: 191px;
+        height: 51px;
+        border-radius: 30px;
+        background-color: #141E61;
+        margin-top: 100px;
+        color: #141E61;
+        margin-left: 940px;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px)
+/* Large devices (laptops and desktops, 1600px) */
+
+{
+    body
+    {
+        margin-left: 50px;
+        margin-right: 0px;
+        background-color: #ffffff;
+        display: grid;
+        place-items: center;
+        overflow-x: hidden;
+    }
+    .body-eclipse2
+    {
+        width: 577px;
+        height: 528px;
+        position: absolute;
+        border-radius: 360px;
+        top: 1980px;
+        right: -250px;
+        background-color: #EEEEEE;
+        z-index: -1;
+    }
+
+    .third-container
+    {
+        place-items: center;
+    }
+    .community-picture-background,
+    .community-picture-background2,
+    .community-events
+    {
+        place-items: center;
+    }
+    .text-area
+    {
+        width: 300px;
+        height: 291px;
+        margin-top: 295px;
+        display: grid;
+    }
+    .community-picture-frame1b, .community-picture-frame1c,
+    .community-picture-frame1d
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 100px;
+        border-radius: 20px;
+    }
+    .community-picture-frame2b, .community-picture-frame2c,
+    .community-picture-frame2d
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 100px;
+        border-radius: 20px;
+    }
+    .community-event-picture
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border-radius: 20px;
+        place-items: center;
+    }
+    .community-event-pictureb,
+    .community-event-picturec, .community-event-pictured
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 100px;
+        border-radius: 20px;
+        place-items: center;
+    }
+    button
+    {
+        width: 191px;
+        height: 51px;
+        border-radius: 30px;
+        background-color: #141E61;
+        margin-top: 100px;
+        color: #141E61;
+        margin-left: 1040px;
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 2560px)
+/* Large devices (laptops and desktops, 1440px) */
+{
+    body
+    {
+        margin-left: 150px;
+        margin-right: 0px;
+        background-color: #ffffff;
+        display: grid;
+        place-items: center;
+        overflow-x: hidden;
+    }
+    .body-eclipse
+    {
+        width: 677px;
+        height: 628px;
+        position: absolute;
+        border-radius: 360px;
+        top: 850px;
+        left: -200px;
+        background-color: #EEEEEE;
+        z-index: -1;
+    }
+    .body-eclipse2
+    {
+        width: 677px;
+        height: 628px;
+        position: absolute;
+        border-radius: 360px;
+        top: 1980px;
+        right: -200px;
+        background-color: #EEEEEE;
+        z-index: -1;
+    }
+
+    .third-container
+    {
+        place-items: center;
+    }
+    .community-picture-background,
+    .community-picture-background2,
+    .community-events
+    {
+        place-items: center;
+    }
+    .text-area
+    {
+        width: 870px;
+        height: 291px;
+        margin-top: 295px;
+        display: grid;
+    }
+    .community-picture-frame1b, .community-picture-frame1c,
+    .community-picture-frame1d
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 300px;
+        border-radius: 20px;
+    }
+    .community-picture-frame2b, .community-picture-frame2c,
+    .community-picture-frame2d
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 300px;
+        border-radius: 20px;
+    }
+    .community-event-picture
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        border-radius: 20px;
+        place-items: center;
+    }
+    .community-event-pictureb,
+    .community-event-picturec, .community-event-pictured
+    {
+        width: 233px;
+        height: 335px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 300px;
+        border-radius: 20px;
+        place-items: center;
+    }
+    button
+    {
+        width: 191px;
+        height: 51px;
+        border-radius: 30px;
+        background-color: #141E61;
+        margin-top: 100px;
+        color: #141E61;
+        margin-left: 1640px;
+        display: flex;
+    }
 }
 
