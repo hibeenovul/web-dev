@@ -378,6 +378,10 @@ body
     width: 1142px;
     height: 348px;
 }
+.mobile-responsiveness
+{
+    display: none;
+}
 
 
 /* Small devices (portrait) */
