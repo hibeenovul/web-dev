@@ -400,16 +400,16 @@ body
         display: grid;
         width: 450px;
         place-items: center;
-        height: 165px;
+        height: 200px;
     }
     .rectangle
     {
-        height: 165px;
+        height: 200px;
         width: 450px;
     }
     .rectangle img
     {
-        height: 165px;
+        height: 200px;
         width: 450px;
     }
     .first-container-text-background
@@ -418,7 +418,7 @@ body
         place-items: center;
         background: linear-gradient(to left, #141E6180, #A5DFFF80);
         position: absolute;
-        height: 165px;
+        height: 200px;
         width: 450px;
     }
     .about
@@ -441,14 +441,14 @@ body
         font-family: "Poppins", sans-serif;
         color:#FFFFFF;
         position: absolute;
-        top: 100px;
+        top: 120px;
         text-align: center;
     }
 
     .second-container
     {
         height: 442px;
-        width: 400px;
+        width: 360px;
         display: grid;
         margin-top: 50px;
         place-items: center;
@@ -475,26 +475,25 @@ body
     .picture-frame
     {
         height: 341px;
-        width: 400px;
+        width: 360px;
         margin-top: 0px;
         display: flex;
         place-items: center;
-
     }
     .picture-frame-rectangle
     {
-        width: 250px;
+        width: 220px;
         height: 361px;
     }
     .picture-frame-rectangle img
     {
-        width: 250px;
+        width: 220px;
         height: 361px;
         border-radius: 12px;
     }
     .content-frame-rectangle
     {
-        width: 276px;
+        width: 256px;
         height: 269px;
         border-radius: 12px;
         position: absolute;
@@ -512,7 +511,7 @@ body
     }
     .first-content-text1
     {
-        width: 248px;
+        width: 228px;
         height: 24px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
@@ -522,7 +521,7 @@ body
     }
     .first-content-text2
     {
-        width: 248px;
+        width: 228px;
         height: 64px;
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
@@ -532,14 +531,14 @@ body
     }
     .second-content
     {
-        width: 238px;
+        width: 248px;
         height: 104px;
         margin-left: 20px;
         display: grid;
     }
     .second-content-text1
     {
-        width: 238px;
+        width: 228px;
         height: 24px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
@@ -549,7 +548,7 @@ body
     }
     .second-content-text2
     {
-        width: 238px;
+        width: 228px;
         height: 80px;
         font-family: "Open Sans", sans-serif;
         font-weight: 400;
