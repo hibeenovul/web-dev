@@ -398,19 +398,19 @@ body
     .first-container
     {
         display: grid;
-        width: 420px;
+        width: 380px;
         place-items: center;
         height: 200px;
     }
     .rectangle
     {
         height: 200px;
-        width: 420px;
+        width: 380px;
     }
     .rectangle img
     {
         height: 200px;
-        width: 420px;
+        width: 380px;
     }
     .first-container-text-background
     {
@@ -419,7 +419,7 @@ body
         background: linear-gradient(to left, #141E6180, #A5DFFF80);
         position: absolute;
         height: 200px;
-        width: 420px;
+        width: 380px;
     }
     .about
     {
