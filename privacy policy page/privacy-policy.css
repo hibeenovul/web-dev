@@ -124,7 +124,7 @@ span
     .mobile-responsiveness
     {
         width: 250px;
-        height: 3000px;
+        height: 3200px;
         display: grid;
         place-self: center;
         border: 2px solid red;
