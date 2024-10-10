@@ -127,6 +127,7 @@ span
         height: 3000px;
         display: grid;
         place-self: center;
+        border: 2px solid red;
     }
     h2
     {
@@ -194,7 +195,6 @@ span
     }
     .checkbox
     {
-        width: 217px;
         height: 18px;
         display: flex;
         place-items: center;
