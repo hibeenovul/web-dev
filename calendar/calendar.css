@@ -1,0 +1,53 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+}
+.first-container
+{
+    display: inline-block;
+    border: 2px solid blue;
+    margin-top: 2px;
+}
+header
+{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid orchid;
+    padding: 10px;
+}
+.header-display
+{
+    display: flex;
+    align-items: center;
+    border: 2px solid burlywood;
+    color: brown;
+}
+pre
+{
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid indigo;
+}
+.week, .days
+{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: auto;
+    justify-content: space-around;
+    border: 1px solid yellowgreen;
+}
+.week div, .days div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid red;
+}
